@@ -7,9 +7,9 @@ import requests
 import os
 
 # Replace with your GitHub repository details
-GITHUB_RAW_URL = 'https://raw.githubusercontent.com/your-username/your-repo/main/vote.py'
-BOT_ID = 'YOUR_BOT_ID'
-TOP_GG_TOKEN = 'YOUR_TOP_GG_TOKEN'
+GITHUB_RAW_URL = 'https://raw.githubusercontent.com/Zaid-maker/topgg-auto-voter/main/vote.py'
+BOT_ID = '1329035516779167764'
+TOP_GG_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEzMjkwMzU1MTY3NzkxNjc3NjQiLCJib3QiOnRydWUsImlhdCI6MTczNzc5MjY4MH0.9Fs6oCVPluSiim2u-FSbZGUyKkfaMYUAxksiDvc6PAo'
 SLEEP_DURATION = 12 * 60 * 60  # 12 hours in seconds
 
 def fetch_script():
